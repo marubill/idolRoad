@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5383D3FE208EECC000D857E5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383D3FD208EECC000D857E5 /* Player.swift */; };
+		53A6D7AD2089AB2E00509028 /* PassCode.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7AC2089AB2E00509028 /* PassCode.jpeg */; };
+		53A6D7B12089ACA400509028 /* ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7B02089ACA400509028 /* ロゴ.png */; };
+		53A6D7B32089AEB500509028 /* バナー　名前.gif in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7B22089AEB500509028 /* バナー　名前.gif */; };
+		53A6D7B52089B49D00509028 /* LubbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7B42089B49D00509028 /* LubbyViewController.swift */; };
+		53A6D7BF2089C08700509028 /* iPhone壁紙　黒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */; };
+		53A6D7C32089C69500509028 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7C22089C69500509028 /* CameraViewController.swift */; };
+		53A6D7C52089CCC500509028 /* ペンライト.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7C42089CCC500509028 /* ペンライト.png */; };
+		53A6D7C7208A37C700509028 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7C6208A37C700509028 /* LiveViewController.swift */; };
+		53F7D72E208CCFDA0070988E /* チェキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D72D208CCFDA0070988E /* チェキ.png */; };
+		53F7D730208CD0BB0070988E /* カメラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D72F208CD0BB0070988E /* カメラ.jpg */; };
+		53F7D734208CDF960070988E /* LIVE風景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D733208CDF940070988E /* LIVE風景.jpg */; };
+		53F7D738208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D737208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 */; };
 		53FCF85920834562004FE336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FCF85820834562004FE336 /* AppDelegate.swift */; };
 		53FCF85B20834562004FE336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FCF85A20834562004FE336 /* ViewController.swift */; };
 		53FCF85E20834562004FE336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FCF85C20834562004FE336 /* Main.storyboard */; };
@@ -15,6 +28,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5383D3FD208EECC000D857E5 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		53A6D7AC2089AB2E00509028 /* PassCode.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PassCode.jpeg; path = "画像/PassCode.jpeg"; sourceTree = SOURCE_ROOT; };
+		53A6D7B02089ACA400509028 /* ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ロゴ.png"; path = "画像/ロゴ.png"; sourceTree = SOURCE_ROOT; };
+		53A6D7B22089AEB500509028 /* バナー　名前.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "バナー　名前.gif"; path = "画像/バナー　名前.gif"; sourceTree = SOURCE_ROOT; };
+		53A6D7B42089B49D00509028 /* LubbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LubbyViewController.swift; sourceTree = "<group>"; };
+		53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iPhone壁紙　黒.jpg"; path = "画像/iPhone壁紙　黒.jpg"; sourceTree = SOURCE_ROOT; };
+		53A6D7C22089C69500509028 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		53A6D7C42089CCC500509028 /* ペンライト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ペンライト.png"; path = "画像/ペンライト.png"; sourceTree = SOURCE_ROOT; };
+		53A6D7C6208A37C700509028 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		53F7D72D208CCFDA0070988E /* チェキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チェキ.png"; sourceTree = "<group>"; };
+		53F7D72F208CD0BB0070988E /* カメラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "カメラ.jpg"; sourceTree = "<group>"; };
+		53F7D733208CDF940070988E /* LIVE風景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LIVE風景.jpg"; sourceTree = "<group>"; };
+		53F7D737208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Re_cybernetic_Free_BGM_ver.mp3; sourceTree = "<group>"; };
 		53FCF85520834562004FE336 /* 強オタへの道.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "強オタへの道.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FCF85820834562004FE336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53FCF85A20834562004FE336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +80,22 @@
 		53FCF85720834562004FE336 /* 強オタへの道 */ = {
 			isa = PBXGroup;
 			children = (
+				53A6D7B22089AEB500509028 /* バナー　名前.gif */,
+				53A6D7AC2089AB2E00509028 /* PassCode.jpeg */,
+				53A6D7B02089ACA400509028 /* ロゴ.png */,
+				53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */,
+				53A6D7C42089CCC500509028 /* ペンライト.png */,
+				53F7D72D208CCFDA0070988E /* チェキ.png */,
+				53F7D72F208CD0BB0070988E /* カメラ.jpg */,
+				53F7D733208CDF940070988E /* LIVE風景.jpg */,
+				53F7D737208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 */,
 				53FCF85820834562004FE336 /* AppDelegate.swift */,
 				53FCF85A20834562004FE336 /* ViewController.swift */,
 				53FCF85C20834562004FE336 /* Main.storyboard */,
+				53A6D7B42089B49D00509028 /* LubbyViewController.swift */,
+				53A6D7C6208A37C700509028 /* LiveViewController.swift */,
+				53A6D7C22089C69500509028 /* CameraViewController.swift */,
+				5383D3FD208EECC000D857E5 /* Player.swift */,
 				53FCF85F20834564004FE336 /* Assets.xcassets */,
 				53FCF86120834564004FE336 /* LaunchScreen.storyboard */,
 				53FCF86420834564004FE336 /* Info.plist */,
@@ -123,8 +162,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				53FCF86320834564004FE336 /* LaunchScreen.storyboard in Resources */,
+				53A6D7BF2089C08700509028 /* iPhone壁紙　黒.jpg in Resources */,
 				53FCF86020834564004FE336 /* Assets.xcassets in Resources */,
+				53F7D72E208CCFDA0070988E /* チェキ.png in Resources */,
+				53F7D738208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 in Resources */,
+				53A6D7B12089ACA400509028 /* ロゴ.png in Resources */,
+				53F7D734208CDF960070988E /* LIVE風景.jpg in Resources */,
+				53F7D730208CD0BB0070988E /* カメラ.jpg in Resources */,
 				53FCF85E20834562004FE336 /* Main.storyboard in Resources */,
+				53A6D7AD2089AB2E00509028 /* PassCode.jpeg in Resources */,
+				53A6D7B32089AEB500509028 /* バナー　名前.gif in Resources */,
+				53A6D7C52089CCC500509028 /* ペンライト.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A6D7C32089C69500509028 /* CameraViewController.swift in Sources */,
 				53FCF85B20834562004FE336 /* ViewController.swift in Sources */,
+				53A6D7B52089B49D00509028 /* LubbyViewController.swift in Sources */,
 				53FCF85920834562004FE336 /* AppDelegate.swift in Sources */,
+				5383D3FE208EECC000D857E5 /* Player.swift in Sources */,
+				53A6D7C7208A37C700509028 /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +331,6 @@
 		53FCF86820834564004FE336 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "強オタへの道/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,7 +347,6 @@
 		53FCF86920834564004FE336 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "強オタへの道/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
