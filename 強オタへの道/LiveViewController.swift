@@ -15,6 +15,7 @@ class LiveViewController: UIViewController {
     var stamina: Float = 0
     var player: Player!
     
+    
     @IBOutlet var backgroundImageView: UIImageView!
     @IBOutlet var liveImageView: UIImageView!
     
@@ -26,7 +27,7 @@ class LiveViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        print("commit test用")
         // 標準だとProgressBarが細いので拡大
         playerHPBar.transform = CGAffineTransform(scaleX: 1.0, y: 4.0)
         
