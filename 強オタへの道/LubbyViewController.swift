@@ -17,25 +17,37 @@ class LubbyViewController: UIViewController {
     @IBOutlet var imadaButton: UIButton!
     @IBOutlet var oogamiButton: UIButton!
 
+
+  
+
+    // メンバー情報
+    var member: Int!
+    let userDefaults = UserDefaults.standard
+
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        PassCodeUtil.playBGM(fileName: "Re_cybernetic_Free_BGM_ver")
+    
+  
         // Do any additional setup after loading the view.
     }
     
+    
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-    
+   
         
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-      
+        
+        PassCodeUtil.stopBGM()
     }
-    
-    
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -43,20 +55,38 @@ class LubbyViewController: UIViewController {
     }
     
     @IBAction func startLive1(){
+        member = 0
+        // 各メンバー情報を保存
+        userDefaults.set(member, forKey: "member")
         performSegue(withIdentifier: "startLive", sender: nil)
+
     }
 
     @IBAction func startLive2(){
+        member = 1
+        // 各メンバー情報を保存
+        userDefaults.set(member, forKey: "member")
         performSegue(withIdentifier: "startLive", sender: nil)
     }
     
     @IBAction func startLive3(){
+        member = 2
+        // 各メンバー情報を保存
+        userDefaults.set(member, forKey: "member")
         performSegue(withIdentifier: "startLive", sender: nil)
     }
     
     @IBAction func startLive4(){
+        member = 3
+        // 各メンバー情報を保存
+        userDefaults.set(member, forKey: "member")
         performSegue(withIdentifier: "startLive", sender: nil)
     }
+    
+      
+
+     
+    
 
     /*
     // MARK: - Navigation

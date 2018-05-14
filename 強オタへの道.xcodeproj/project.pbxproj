@@ -14,8 +14,24 @@
 		53A6D7B52089B49D00509028 /* LubbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7B42089B49D00509028 /* LubbyViewController.swift */; };
 		53A6D7BF2089C08700509028 /* iPhone壁紙　黒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */; };
 		53A6D7C32089C69500509028 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7C22089C69500509028 /* CameraViewController.swift */; };
-		53A6D7C52089CCC500509028 /* ペンライト.png in Resources */ = {isa = PBXBuildFile; fileRef = 53A6D7C42089CCC500509028 /* ペンライト.png */; };
 		53A6D7C7208A37C700509028 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A6D7C6208A37C700509028 /* LiveViewController.swift */; };
+		53F3EA232095A8040055C5F7 /* ninchiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3EA222095A8040055C5F7 /* ninchiViewController.swift */; };
+		53F3EA292096120F0055C5F7 /* ひなちゃん.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA252096120E0055C5F7 /* ひなちゃん.png */; };
+		53F3EA2A2096120F0055C5F7 /* かっぴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA262096120E0055C5F7 /* かっぴ.png */; };
+		53F3EA2B2096120F0055C5F7 /* ちーゆな.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA272096120F0055C5F7 /* ちーゆな.png */; };
+		53F3EA2D209619510055C5F7 /* やちい.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA2C209619510055C5F7 /* やちい.png */; };
+		53F3EA3B20A13E5C0055C5F7 /* 大上陽奈子.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA3A20A13E5C0055C5F7 /* 大上陽奈子.png */; };
+		53F3EA3D20A13E680055C5F7 /* 南菜生.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA3C20A13E680055C5F7 /* 南菜生.png */; };
+		53F3EA4020A13E730055C5F7 /* 高嶋楓.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA3E20A13E730055C5F7 /* 高嶋楓.png */; };
+		53F3EA4120A13E730055C5F7 /* 今田夢菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA3F20A13E730055C5F7 /* 今田夢菜.png */; };
+		53F3EA4520A73B8B0055C5F7 /* PassCodeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3EA4420A73B8B0055C5F7 /* PassCodeUtil.swift */; };
+		53F3EA4720A810A10055C5F7 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F3EA4620A810A10055C5F7 /* TitleViewController.swift */; };
+		53F3EA4920A817710055C5F7 /* ペンライト黄.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA4820A817700055C5F7 /* ペンライト黄.png */; };
+		53F3EA5020A818830055C5F7 /* ペンライト青.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA4E20A818820055C5F7 /* ペンライト青.png */; };
+		53F3EA5120A818830055C5F7 /* ペンライト赤.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA4F20A818830055C5F7 /* ペンライト赤.png */; };
+		53F3EA5520A8292C0055C5F7 /* 黄.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA5220A8292B0055C5F7 /* 黄.png */; };
+		53F3EA5620A8292C0055C5F7 /* 青.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA5320A8292C0055C5F7 /* 青.png */; };
+		53F3EA5720A8292C0055C5F7 /* 赤.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F3EA5420A8292C0055C5F7 /* 赤.png */; };
 		53F7D72E208CCFDA0070988E /* チェキ.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D72D208CCFDA0070988E /* チェキ.png */; };
 		53F7D730208CD0BB0070988E /* カメラ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D72F208CD0BB0070988E /* カメラ.jpg */; };
 		53F7D734208CDF960070988E /* LIVE風景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53F7D733208CDF940070988E /* LIVE風景.jpg */; };
@@ -35,8 +51,24 @@
 		53A6D7B42089B49D00509028 /* LubbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LubbyViewController.swift; sourceTree = "<group>"; };
 		53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "iPhone壁紙　黒.jpg"; path = "画像/iPhone壁紙　黒.jpg"; sourceTree = SOURCE_ROOT; };
 		53A6D7C22089C69500509028 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		53A6D7C42089CCC500509028 /* ペンライト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ペンライト.png"; path = "画像/ペンライト.png"; sourceTree = SOURCE_ROOT; };
 		53A6D7C6208A37C700509028 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		53F3EA222095A8040055C5F7 /* ninchiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninchiViewController.swift; sourceTree = "<group>"; };
+		53F3EA252096120E0055C5F7 /* ひなちゃん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひなちゃん.png"; sourceTree = "<group>"; };
+		53F3EA262096120E0055C5F7 /* かっぴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "かっぴ.png"; sourceTree = "<group>"; };
+		53F3EA272096120F0055C5F7 /* ちーゆな.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ちーゆな.png"; sourceTree = "<group>"; };
+		53F3EA2C209619510055C5F7 /* やちい.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "やちい.png"; sourceTree = "<group>"; };
+		53F3EA3A20A13E5C0055C5F7 /* 大上陽奈子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大上陽奈子.png"; sourceTree = "<group>"; };
+		53F3EA3C20A13E680055C5F7 /* 南菜生.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "南菜生.png"; sourceTree = "<group>"; };
+		53F3EA3E20A13E730055C5F7 /* 高嶋楓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高嶋楓.png"; sourceTree = "<group>"; };
+		53F3EA3F20A13E730055C5F7 /* 今田夢菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "今田夢菜.png"; sourceTree = "<group>"; };
+		53F3EA4420A73B8B0055C5F7 /* PassCodeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassCodeUtil.swift; sourceTree = "<group>"; };
+		53F3EA4620A810A10055C5F7 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		53F3EA4820A817700055C5F7 /* ペンライト黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ペンライト黄.png"; path = "画像/ペンライト黄.png"; sourceTree = SOURCE_ROOT; };
+		53F3EA4E20A818820055C5F7 /* ペンライト青.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ペンライト青.png"; path = "画像/ペンライト青.png"; sourceTree = SOURCE_ROOT; };
+		53F3EA4F20A818830055C5F7 /* ペンライト赤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ペンライト赤.png"; path = "画像/ペンライト赤.png"; sourceTree = SOURCE_ROOT; };
+		53F3EA5220A8292B0055C5F7 /* 黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "黄.png"; path = "画像/黄.png"; sourceTree = SOURCE_ROOT; };
+		53F3EA5320A8292C0055C5F7 /* 青.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "青.png"; path = "画像/青.png"; sourceTree = SOURCE_ROOT; };
+		53F3EA5420A8292C0055C5F7 /* 赤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "赤.png"; path = "画像/赤.png"; sourceTree = SOURCE_ROOT; };
 		53F7D72D208CCFDA0070988E /* チェキ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "チェキ.png"; sourceTree = "<group>"; };
 		53F7D72F208CD0BB0070988E /* カメラ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "カメラ.jpg"; sourceTree = "<group>"; };
 		53F7D733208CDF940070988E /* LIVE風景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LIVE風景.jpg"; sourceTree = "<group>"; };
@@ -84,18 +116,34 @@
 				53A6D7AC2089AB2E00509028 /* PassCode.jpeg */,
 				53A6D7B02089ACA400509028 /* ロゴ.png */,
 				53A6D7BE2089C08600509028 /* iPhone壁紙　黒.jpg */,
-				53A6D7C42089CCC500509028 /* ペンライト.png */,
 				53F7D72D208CCFDA0070988E /* チェキ.png */,
 				53F7D72F208CD0BB0070988E /* カメラ.jpg */,
 				53F7D733208CDF940070988E /* LIVE風景.jpg */,
+				53F3EA262096120E0055C5F7 /* かっぴ.png */,
+				53F3EA272096120F0055C5F7 /* ちーゆな.png */,
+				53F3EA252096120E0055C5F7 /* ひなちゃん.png */,
+				53F3EA2C209619510055C5F7 /* やちい.png */,
+				53F3EA4820A817700055C5F7 /* ペンライト黄.png */,
+				53F3EA4E20A818820055C5F7 /* ペンライト青.png */,
+				53F3EA4F20A818830055C5F7 /* ペンライト赤.png */,
+				53F3EA5220A8292B0055C5F7 /* 黄.png */,
+				53F3EA5320A8292C0055C5F7 /* 青.png */,
+				53F3EA5420A8292C0055C5F7 /* 赤.png */,
+				53F3EA3A20A13E5C0055C5F7 /* 大上陽奈子.png */,
+				53F3EA3C20A13E680055C5F7 /* 南菜生.png */,
+				53F3EA3E20A13E730055C5F7 /* 高嶋楓.png */,
+				53F3EA3F20A13E730055C5F7 /* 今田夢菜.png */,
 				53F7D737208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 */,
 				53FCF85820834562004FE336 /* AppDelegate.swift */,
 				53FCF85A20834562004FE336 /* ViewController.swift */,
 				53FCF85C20834562004FE336 /* Main.storyboard */,
+				53F3EA4620A810A10055C5F7 /* TitleViewController.swift */,
 				53A6D7B42089B49D00509028 /* LubbyViewController.swift */,
 				53A6D7C6208A37C700509028 /* LiveViewController.swift */,
 				53A6D7C22089C69500509028 /* CameraViewController.swift */,
+				53F3EA222095A8040055C5F7 /* ninchiViewController.swift */,
 				5383D3FD208EECC000D857E5 /* Player.swift */,
+				53F3EA4420A73B8B0055C5F7 /* PassCodeUtil.swift */,
 				53FCF85F20834564004FE336 /* Assets.xcassets */,
 				53FCF86120834564004FE336 /* LaunchScreen.storyboard */,
 				53FCF86420834564004FE336 /* Info.plist */,
@@ -164,15 +212,28 @@
 				53FCF86320834564004FE336 /* LaunchScreen.storyboard in Resources */,
 				53A6D7BF2089C08700509028 /* iPhone壁紙　黒.jpg in Resources */,
 				53FCF86020834564004FE336 /* Assets.xcassets in Resources */,
+				53F3EA4120A13E730055C5F7 /* 今田夢菜.png in Resources */,
+				53F3EA2D209619510055C5F7 /* やちい.png in Resources */,
 				53F7D72E208CCFDA0070988E /* チェキ.png in Resources */,
 				53F7D738208CE88B0070988E /* Re_cybernetic_Free_BGM_ver.mp3 in Resources */,
+				53F3EA3D20A13E680055C5F7 /* 南菜生.png in Resources */,
+				53F3EA5120A818830055C5F7 /* ペンライト赤.png in Resources */,
+				53F3EA292096120F0055C5F7 /* ひなちゃん.png in Resources */,
+				53F3EA4020A13E730055C5F7 /* 高嶋楓.png in Resources */,
 				53A6D7B12089ACA400509028 /* ロゴ.png in Resources */,
+				53F3EA5720A8292C0055C5F7 /* 赤.png in Resources */,
 				53F7D734208CDF960070988E /* LIVE風景.jpg in Resources */,
+				53F3EA5020A818830055C5F7 /* ペンライト青.png in Resources */,
+				53F3EA2B2096120F0055C5F7 /* ちーゆな.png in Resources */,
 				53F7D730208CD0BB0070988E /* カメラ.jpg in Resources */,
+				53F3EA2A2096120F0055C5F7 /* かっぴ.png in Resources */,
+				53F3EA5520A8292C0055C5F7 /* 黄.png in Resources */,
+				53F3EA5620A8292C0055C5F7 /* 青.png in Resources */,
 				53FCF85E20834562004FE336 /* Main.storyboard in Resources */,
+				53F3EA4920A817710055C5F7 /* ペンライト黄.png in Resources */,
 				53A6D7AD2089AB2E00509028 /* PassCode.jpeg in Resources */,
 				53A6D7B32089AEB500509028 /* バナー　名前.gif in Resources */,
-				53A6D7C52089CCC500509028 /* ペンライト.png in Resources */,
+				53F3EA3B20A13E5C0055C5F7 /* 大上陽奈子.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +247,10 @@
 				53A6D7C32089C69500509028 /* CameraViewController.swift in Sources */,
 				53FCF85B20834562004FE336 /* ViewController.swift in Sources */,
 				53A6D7B52089B49D00509028 /* LubbyViewController.swift in Sources */,
+				53F3EA232095A8040055C5F7 /* ninchiViewController.swift in Sources */,
 				53FCF85920834562004FE336 /* AppDelegate.swift in Sources */,
+				53F3EA4720A810A10055C5F7 /* TitleViewController.swift in Sources */,
+				53F3EA4520A73B8B0055C5F7 /* PassCodeUtil.swift in Sources */,
 				5383D3FE208EECC000D857E5 /* Player.swift in Sources */,
 				53A6D7C7208A37C700509028 /* LiveViewController.swift in Sources */,
 			);
