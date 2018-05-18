@@ -31,6 +31,8 @@ class LiveViewController: UIViewController {
     //color画像を保存しておく配列
     var colorArray: [String]!
     
+    //0〜2の間でランダムに数字を発生させる
+    var number = Int(arc4random_uniform(3))
     
     
     
@@ -48,16 +50,13 @@ class LiveViewController: UIViewController {
         stamina = minStamina
         playerHPBar.progress = stamina / maxStamina
         
-        //0〜2の間でランダムに数字を発生させる
-        let number = Int(arc4random_uniform(2))
-        
+       
         //color画像を3枚追加する
         colorArray = ["赤.png",
                       "黄.png",
                       "青.png",]
         
       
-        
         //ランダムに選んだcolor画像を表示させる
         colorImageView.image = UIImage(named:colorArray[number])
         
@@ -66,58 +65,67 @@ class LiveViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    
     @IBAction func select0(){
         select = 0
-        print("bbb")
-        print(colorArray)
         playerAttack()
-        
-        
+        number = Int(arc4random_uniform(3))
+        colorImageView.image = UIImage(named:colorArray[number])
+     
     }
     @IBAction func select1(){
         select = 1
-        print("bbb")
         playerAttack()
+        number = Int(arc4random_uniform(3))
+        colorImageView.image = UIImage(named:colorArray[number])
         
     }
     @IBAction func select2(){
         select = 2
-        print("bbb")
         playerAttack()
+        number = Int(arc4random_uniform(3))
+        colorImageView.image = UIImage(named:colorArray[number])
         
     }
     
     func playerAttack(){
-        switch colorArray {
-        case ["赤.png"]:
-            print("aaa")
+        
+        
+        switch colorImageView.image {
+        case UIImage(named:colorArray[0]):
+            
             if select == 0 {
             // HPの更新
             print("playerHP is\(player.attackPower)")
             player.currentHP = player.currentHP + player.attackPower
             playerHPBar.setProgress(player.currentHP / player.maxHP, animated: true)
+            
             }
             
             
-        case ["黄.png"]:
+        case UIImage(named:colorArray[1]):
             
             if select == 1 {
             // HPの更新
             print("playerHP is\(player.attackPower)")
             player.currentHP = player.currentHP + player.attackPower
             playerHPBar.setProgress(player.currentHP / player.maxHP, animated: true)
+
             }
-            
+        
                 
-                
-        case ["青.png"]:
+        case UIImage(named:colorArray[2]):
             
             if select == 2 {
+                
             // HPの更新
             print("playerHP is\(player.attackPower)")
             player.currentHP = player.currentHP + player.attackPower
             playerHPBar.setProgress(player.currentHP / player.maxHP, animated: true)
+            
             }
+            
             
         default:
             break
@@ -127,9 +135,11 @@ class LiveViewController: UIViewController {
         print(player.currentHP)
         
         
-        if player.currentHP > 100 {
+        
+        
+        if player.currentHP >= 100 {
             finishLive(winPlayer: true)
-    }
+        }
         
     }
         
@@ -138,6 +148,7 @@ class LiveViewController: UIViewController {
     func finishLive(winPlayer: Bool){
             
         //攻撃ボタンを隠す
+        colorImageView.isHidden = true
         penLightButtonRed.isHidden = true
         penLightButtonBlue.isHidden = true
         penLightButtonYellow.isHidden = true

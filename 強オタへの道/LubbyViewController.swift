@@ -28,7 +28,6 @@ class LubbyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        PassCodeUtil.playBGM(fileName: "Re_cybernetic_Free_BGM_ver")
     
   
         // Do any additional setup after loading the view.
@@ -45,7 +44,7 @@ class LubbyViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        PassCodeUtil.stopBGM()
+  
     }
   
 

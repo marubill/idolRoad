@@ -11,14 +11,14 @@ import UIKit
 class ninchiViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
-   
+    
     @IBOutlet var ninchiImageView: UIImageView!
     var ninchiPictureArray: [UIImage]!
     
     // メンバー情報
     let userDefaults = UserDefaults.standard
     var member: Int!
-
+    
     // ユーザーネーム
     let userDefaults2 = UserDefaults.standard
     var name: String!
@@ -27,9 +27,9 @@ class ninchiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ninchiPictureArray = [UIImage(named: "南菜生.png")!,
-                           UIImage(named: "高嶋楓.png")!,
-                           UIImage(named: "今田夢菜.png")!,
-                           UIImage(named: "大上陽奈子.png")!,
+                              UIImage(named: "高嶋楓.png")!,
+                              UIImage(named: "今田夢菜.png")!,
+                              UIImage(named: "大上陽奈子.png")!,
         ]
         
         member = userDefaults.object(forKey: "member") as! Int
@@ -49,7 +49,7 @@ class ninchiViewController: UIViewController {
         default:
             break
         }
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -57,18 +57,19 @@ class ninchiViewController: UIViewController {
     func readData() {
         let str: String = userDefaults2.object(forKey: "name") as! String
         name = str
-        label.text =  name + "いつも来てくれてありがとう また来てね！"
+        label.text =  name + "いつも来てくれてありがとう" + "\nまた来てね！"
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
+    
     @IBAction func backHome(){
         performSegue(withIdentifier: "backHome", sender: nil)
     }
+
 
     /*
     // MARK: - Navigation

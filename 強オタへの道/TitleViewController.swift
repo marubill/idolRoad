@@ -9,59 +9,56 @@
 import UIKit
 
 class TitleViewController: UIViewController, UITextFieldDelegate {
-
-    @IBOutlet var selectButton: UIButton!
-    
-    // ユーザーネーム
-    @IBOutlet var textField:UITextField!
-    let userDefaults2 = UserDefaults.standard
-    var name: String!
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
         
-        // textField の情報を受け取るための delegate を設定
-        textField.delegate = self
-        // デフォルト値
-        userDefaults2.register(defaults: ["DataStore": "default"])
+        // ユーザーネーム
+        @IBOutlet var textField:UITextField!
+        let userDefaults2 = UserDefaults.standard
+        var name: String!
         
         
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // textField の情報を受け取るための delegate を設定
+            textField.delegate = self
+            // デフォルト値
+            userDefaults2.register(defaults: ["DataStore": "default"])
+            
+            
+            
+            // Do any additional setup after loading the view.
+        }
         
-        name = textField.text!
-        
-        // キーボードを閉じる
-        textField.resignFirstResponder()
-        saveData(str: name)
-        
-        return true
-    }
-    
-    func saveData(str: String){
-        
-        // Keyを指定して保存
-        userDefaults2.set(str, forKey: "name")
-        userDefaults2.synchronize()
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+            // Dispose of any resources that can be recreated.
+        }
         
         
-    }
-    
-    @IBAction func select(){
-
-        performSegue(withIdentifier: "select", sender: nil)
-    }
-
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            
+            name = textField.text!
+            
+            // キーボードを閉じる
+            textField.resignFirstResponder()
+            saveData(str: name)
+            
+            return true
+        }
+        
+        func saveData(str: String){
+            
+            // Keyを指定して保存
+            userDefaults2.set(str, forKey: "name")
+            userDefaults2.synchronize()
+            
+            
+        }
+        
+        @IBAction func select(){
+            
+            performSegue(withIdentifier: "select", sender: nil)
+        }
     /*
     // MARK: - Navigation
 
